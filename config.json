@@ -1,0 +1,32 @@
+{
+    "bridge": {
+        "name": "Homebridge BCD2",
+        "username": "0E:BC:6A:51:BC:D2",
+        "port": 51377,
+        "pin": "158-17-274",
+        "advertiser": "ciao"
+    },
+    "accessories": [],
+    "platforms": [
+        {
+            "name": "Config",
+            "port": 8581,
+            "auth": "form",
+            "theme": "auto",
+            "tempUnits": "f",
+            "lang": "auto",
+            "platform": "config"
+        },
+        {
+            "refreshToken": "eyJhbGciOiJIUzUxMiIsImprdSI6Ii9vYXV0aC9pbnRlcm5hbC9qd2tzIiwia2lkIjoiYzEyODEwMGIiLCJ0eXAiOiJKV1QifQ.eyJpYXQiOjE2NDYzNTQzNjgsImlzcyI6IlJpbmdPYXV0aFNlcnZpY2UtcHJvZDp1cy1lYXN0LTE6NjAzZjIzNzgiLCJyZWZyZXNoX2NpZCI6InJpbmdfb2ZmaWNpYWxfYW5kcm9pZCIsInJlZnJlc2hfc2NvcGVzIjpbImNsaWVudCJdLCJyZWZyZXNoX3VzZXJfaWQiOjc2MTA3NCwicm5kIjoib0lkdGgxUjZSaERMOWciLCJzZXNzaW9uX2lkIjoiMDk1MDFlMzYtZTRjZS00Yzk2LWI2YzctMDE5YWJjOTE5M2FmIiwidHlwZSI6InJlZnJlc2gtdG9rZW4ifQ.X59Ns6ZIDqmEK9RLMYFgi9T-XWoP3LmcW6i0l8b1G6YpRyiekLE0r1gXQjfMAY_bxSHon0Kt-V0c6kV6cUguOQ",
+            "platform": "Ring"
+        },
+        {
+            "platform": "Rachio-Platform",
+            "name": "Rachio Controller",
+            "api_key": "db48e45a-25cb-4b1a-b92a-57f8bb596eaf",
+            "internal_webhook_port": 27546,
+            "external_webhook_address": "http://173.452.132.342:12453"
+        }
+    ]
+}
